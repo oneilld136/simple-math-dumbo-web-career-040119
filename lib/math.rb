@@ -22,6 +22,6 @@ def square_root(num=81)
   Math.sqrt(num)
 end
 
-def order_of_operation(num1, num2, num3, num4)
-  #Hint:  __ + (( __ * __ ) / __ )
+def order_of_operation(num1=7, num2=43, num3=23, num4=83)
+  num1 + (( num2 * num3 ) / num4 )
 end
